@@ -1,6 +1,6 @@
 import 'package:dogglers_app/constants.dart';
 import 'package:dogglers_app/models/dogs.dart';
-import 'package:dogglers_app/widget.dart';
+import 'package:dogglers_app/widgets/widget.dart';
 import 'package:flutter/material.dart';
 
 class GridPage extends StatelessWidget {
