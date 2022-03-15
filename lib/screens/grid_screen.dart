@@ -20,7 +20,7 @@ class GridPage extends StatelessWidget {
           // scrollDirection: Axis.horizontal,
           gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
             crossAxisCount: 2,
-            childAspectRatio: 0.645,
+            childAspectRatio: 0.55,
           ),
           itemCount: myDogs.length,
           itemBuilder: (context, index) {

@@ -14,6 +14,7 @@ class MyCard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    Size size = MediaQuery.of(context).size;
     return Card(
       shape: RoundedRectangleBorder(
         borderRadius: BorderRadius.circular(10),
@@ -24,8 +25,8 @@ class MyCard extends StatelessWidget {
         children: [
           SizedBox(
             // margin: const EdgeInsets.all(kDefaultPadding),
-            height: 184,
-            width: double.infinity,
+            height: size.height * 0.3,
+            width: double.maxFinite,
             child: ClipRRect(
               borderRadius: const BorderRadius.only(
                 topLeft: Radius.circular(10),
